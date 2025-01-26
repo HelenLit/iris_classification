@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+.vscode
+.idea/
+
+# Directories
+models/
+results/
+mlruns/
+
+# File Extensions
+*.csv
+*.pickle
+*.pyc
+*.ipynb
+
+# Environment Variables
+.env
+
+# Installer logs
+pip-log.txt
+
+.DS_Store

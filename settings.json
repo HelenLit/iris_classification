@@ -1,0 +1,28 @@
+{
+    "general": {
+        "random_state": 30,
+        "status": "test",
+        "datetime_format": "%d.%m.%Y_%H.%M",
+        "data_dir": "data",
+        "data_prep_dir": "data_process",
+        "models_dir": "models",
+        "results_dir": "results"
+    },
+    "train": {
+        "table_name": "iris_train_data.csv",
+        "dropout_rate": 0.2,
+        "epochs": 400,
+        "learning_rate": 0.002,
+        "metric": "f1",
+        "max_rows": 1000,
+        "scaler_filename": "scaler.pickle"
+    },
+    "test": {
+        "table_name": "iris_test_data.csv",
+        "max_rows": 500
+    },
+    "inference": {
+        "inp_table_name": "iris_inference_data.csv",
+        "max_rows": 1000
+    }
+}
