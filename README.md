@@ -104,6 +104,9 @@ ls models/
 ```bash
 docker cp <container_id>:/app/models/<model_name>.pickle ./models
 ```
+```bash
+docker cp  <container_id>:/app/data_process/scaler.pickle ./data_process
+```
 Replace `<container_id>` with your running Docker container ID and `<model_name>.pickle` with your model's name.
 
 - Alternatively, the `train.py` script can also be run locally as follows:
