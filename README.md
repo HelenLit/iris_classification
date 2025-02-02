@@ -102,6 +102,9 @@ ls models/
 ```
 - Then, move the trained model from the directory inside the Docker container `/app/models` to the local machine using:
 ```bash
+mkdir models
+```
+```bash
 docker cp <container_id>:/app/models/<model_name>.pickle ./models
 ```
 ```bash
